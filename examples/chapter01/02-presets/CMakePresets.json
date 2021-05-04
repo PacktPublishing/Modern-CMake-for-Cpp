@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 19,
+    "patch": 3
+  },
+  "configurePresets": [
+    {
+      "name": "my-preset",
+      "displayName": "Custom Preset",
+      "description": "Custom build - Ninja generator",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/ninja",
+      "cacheVariables": {
+        "FIRST_CACHE_VARIABLE": {
+          "type": "BOOL",
+          "value": "OFF"
+        },
+        "SECOND_CACHE_VARIABLE": "Ninjas rock"
+      },
+      "environment": {
+        "MY_ENVIRONMENT_VARIABLE": "Test",
+        "PATH": "$env{HOME}/ninja/bin:$penv{PATH}"
+      },
+      "vendor": {
+        "vendor-one.com/ExampleIDE/1.0": {
+          "buildQuickly": true
+        }
+      }
+    },
+    {
+      "name": "my-preset-multi",
+      "inherits": "my-preset",
+      "displayName": "Custom Ninja Multi-Config",
+      "description": "Custom build - Ninja Multi-Config generator",
+      "generator": "Ninja Multi-Config"
+    }
+  ],
+  "vendor": {
+    "vendor-one.com/ExampleIDE/1.0": {
+      "buildQuickly": false
+    }
+  }
+}

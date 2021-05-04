@@ -1,0 +1,5 @@
+FROM swidzinski/cmake:toolchain
+
+ADD examples/ /home/root
+ADD root/ /root
+WORKDIR /home/root

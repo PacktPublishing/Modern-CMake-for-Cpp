@@ -1,0 +1,1 @@
+#define CONSTANT(x) #x
