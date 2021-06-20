@@ -1,0 +1,6 @@
+[submodule "examples/chapter07/05-git-submodule-manual/extern/yaml-cpp"]
+	path = examples/chapter07/05-git-submodule-manual/extern/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "examples/chapter07/06-git-submodule-auto/extern/yaml-cpp"]
+	path = examples/chapter07/06-git-submodule-auto/extern/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
