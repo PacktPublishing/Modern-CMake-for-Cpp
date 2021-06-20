@@ -1,5 +1,4 @@
 FROM swidzinski/cmake:toolchain
 
-ADD examples/ /home/root
-ADD root/ /root
+ADD ./ /root
 WORKDIR /home/root

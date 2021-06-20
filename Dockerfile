@@ -1,9 +1,10 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
-make vim g++ wget ca-certificates && \
+make vim g++ wget pkg-config git ca-certificates && \
 rm -rf /var/lib/apt/lists/*
 
+# install cmake
 ENV version=3.20.0
 
 RUN cd /tmp && \
