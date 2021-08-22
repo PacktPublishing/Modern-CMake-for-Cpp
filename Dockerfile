@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
-make vim g++ wget pkg-config git ca-certificates && \
+make vim g++ lcov wget pkg-config git ca-certificates && \
 rm -rf /var/lib/apt/lists/*
 
 # install cmake
@@ -14,4 +14,4 @@ chmod a+x ./cmake-$version-Linux-x86_64.sh && \
 ./cmake-$version-Linux-x86_64.sh --prefix=/opt/cmake --skip-license && \
 rm cmake-$version-Linux-x86_64.sh
 
-RUN ln -s /opt/cmake/bin/cmake /usr/local/bin/cmake
+RUN ln -s /opt/cmake/bin/* /usr/local/bin/
