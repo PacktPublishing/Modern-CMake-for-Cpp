@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
-make vim g++ lcov wget pkg-config git clang-tidy clang-format valgrind gawk ca-certificates && \
+make vim g++ lcov wget pkg-config git clang-tidy clang-format valgrind gawk ca-certificates doxygen graphviz cppcheck&& \
 rm -rf /var/lib/apt/lists/*
 
 # install cmake

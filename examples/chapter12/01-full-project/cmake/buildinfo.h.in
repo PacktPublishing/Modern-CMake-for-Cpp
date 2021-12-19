@@ -1,0 +1,6 @@
+struct BuildInfo {
+  static inline const std::string CommitSHA = "@COMMIT_SHA@";
+  static inline const std::string Timestamp = "@TIMESTAMP@";
+  static inline const
+  std::string Version = "@PROJECT_VERSION@";
+};

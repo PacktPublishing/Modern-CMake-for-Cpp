@@ -1,0 +1,29 @@
+To install this software you'll need to provide the following:
+
+- C++ compiler supporting C++17
+- CMake >= 3.20
+- GIT
+- Doxygen + Graphviz
+- CPPCheck
+- Valgrind
+
+This project also depends on GTest, GMock and FXTUI. This
+software is automatically pulled from external repositories
+during the installation.
+
+To configure the project type:
+
+cmake -B <temporary-directory>
+
+Then you can build the project:
+
+cmake --build <temporary-directory>
+
+And finally install it:
+
+cmake --install <temporary-directory>
+
+To generate the documentation run:
+
+cmake --build <temporary-directory> -t doxygen-calc
+cmake --build <temporary-directory> -t doxygen-calc_console
