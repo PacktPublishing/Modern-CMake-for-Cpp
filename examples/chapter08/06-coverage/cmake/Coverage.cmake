@@ -3,6 +3,7 @@ function(AddCoverage target)
   find_program(GENHTML_PATH genhtml)
 
   add_custom_target(coverage
+    COMMENT "Running coverage for ${target}..."
     COMMAND ${LCOV_PATH} -d . --zerocounters
     COMMAND $<TARGET_FILE:${target}>
     COMMAND ${LCOV_PATH} -d . --capture -o coverage.info
