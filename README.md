@@ -1,2 +1,2 @@
-# Getting-Started-with-CMake
-Getting Started with CMake, published by Packt
+# Modern CMake for C++
+Modern CMake for C++, published by Packt
