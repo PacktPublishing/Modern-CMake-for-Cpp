@@ -1,5 +1,5 @@
 function(AddValgrind target)
-  find_program(VALGRIND_PATH valgrind)
+  find_program(VALGRIND_PATH valgrind REQUIRED)
   add_custom_target(valgrind
     COMMAND ${VALGRIND_PATH} --leak-check=yes
             $<TARGET_FILE:${target}>

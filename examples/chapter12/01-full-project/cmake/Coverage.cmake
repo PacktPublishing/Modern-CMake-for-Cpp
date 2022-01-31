@@ -13,8 +13,8 @@ function(CleanCoverage target)
 endfunction()
 
 function(AddCoverage target)
-  find_program(LCOV_PATH lcov)
-  find_program(GENHTML_PATH genhtml)
+  find_program(LCOV_PATH lcov REQUIRED)
+  find_program(GENHTML_PATH genhtml REQUIRED)
   add_custom_target(coverage-${target}
     COMMAND ${LCOV_PATH} -d . --zerocounters
     COMMAND $<TARGET_FILE:${target}>
