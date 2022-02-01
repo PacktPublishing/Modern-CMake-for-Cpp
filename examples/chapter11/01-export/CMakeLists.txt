@@ -5,7 +5,7 @@ add_subdirectory(src bin)
 set(EXPORT_DIR "${CMAKE_CURRENT_BINARY_DIR}/cmake")
 
 export(TARGETS calc
-       FILE "${EXPORT_DIR}/cmake/CalcTargets.cmake"
+       FILE "${EXPORT_DIR}/CalcTargets.cmake"
        NAMESPACE Calc::
 )
 
