@@ -5,9 +5,7 @@ target_include_directories(calc_obj INTERFACE
 )
 set_target_properties(calc_obj PROPERTIES
     PUBLIC_HEADER src/calc/include/calc/calc.h
-)
-set_property(TARGET calc_obj PROPERTY
-             POSITION_INDEPENDENT_CODE 1
+    POSITION_INDEPENDENT_CODE 1
 )
 
 add_library(calc_shared SHARED)
