@@ -1,4 +1,4 @@
 FROM swidzinski/cmake:toolchain
 
 ADD ./ /root
-WORKDIR /home/root
+WORKDIR /root/examples

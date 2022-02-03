@@ -1,5 +1,5 @@
 e() {
-  cd "/home/root/examples/chapter"*"$1/"*"$2"*
+  cd "/root/examples/chapter"*"$1/"*"$2"*
 }
 gb() {
   cd /tmp/b
