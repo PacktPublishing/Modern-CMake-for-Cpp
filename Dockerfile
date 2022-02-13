@@ -1,8 +1,11 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
-make vim g++ lcov wget pkg-config git clang-tidy clang-format valgrind gawk ca-certificates doxygen graphviz cppcheck&& \
-rm -rf /var/lib/apt/lists/*
+ca-certificates vim tree wget git lcov gawk \
+g++ make \
+pkg-config clang-tidy clang-format valgrind doxygen graphviz cppcheck \
+protobuf-compiler \
+&& rm -rf /var/lib/apt/lists/*
 
 # install cmake
 ENV version=3.20.0
