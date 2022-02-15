@@ -53,7 +53,7 @@ find_path(PQXX_HEADER_PATH NAMES pqxx/pqxx
 
 include(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(
-  PQXX DEFAULT_MSG PQXX_LIBRARY PQXX_HEADER_PATH
+  PQXX DEFAULT_MSG PQXX_LIBRARY_PATH PQXX_HEADER_PATH
 )
 if (PQXX_FOUND)
   add_imported_library(
