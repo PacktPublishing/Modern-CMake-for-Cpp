@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 ca-certificates vim tree wget git lcov gawk \
 g++ make \
 pkg-config clang-tidy clang-format valgrind doxygen graphviz cppcheck \
-protobuf-compiler \
+protobuf-compiler libprotobuf-dev \
 && rm -rf /var/lib/apt/lists/*
 
 # install cmake
