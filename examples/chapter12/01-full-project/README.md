@@ -1,10 +1,10 @@
 # Calc Console
 
-Calc Console is a calculator that sums two numbers in a
+Calc Console is a calculator that adds two numbers in a
 terminal. It does all the math by using a **Calc** library.
 This library is also available in this package.
 
-This application written in C++ and built with CMake.
+This application is written in C++ and built with CMake.
 
 ## More information
 
