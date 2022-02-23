@@ -10,12 +10,12 @@ This is the code repository for [Modern CMake for C++](https://www.packtpub.com/
 Creating top-notch software is an extremely difficult undertaking. Developers researching the subject have difficulty determining which advice is up-to-date and which approaches have already been replaced by easier, better practices. At the same time, most online resources offer limited explanation, while also lacking the proper context and structure.
 
 This book covers the following exciting features:
-*Understand best practices for building C++ code
-*Gain practical knowledge of the CMake language by focusing on the most useful aspects
-*Use cutting-edge tooling to guarantee code quality with the help of tests and static and dynamic analysis
-*Discover how to manage, discover, download, and link dependencies with CMake
-*Build solutions that can be reused and maintained in the long term
-*Understand how to optimize build artifacts and the build process itself
+* Understand best practices for building C++ code
+* Gain practical knowledge of the CMake language by focusing on the most useful aspects
+* Use cutting-edge tooling to guarantee code quality with the help of tests and static and dynamic analysis
+* Discover how to manage, discover, download, and link dependencies with CMake
+* Build solutions that can be reused and maintained in the long term
+* Understand how to optimize build artifacts and the build process itself
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/Modern-CMake-Discover-approach-packaging/dp/1801070059) today!
 
