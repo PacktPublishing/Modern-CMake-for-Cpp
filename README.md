@@ -36,12 +36,12 @@ endfunction()
 **Following is what you need for this book:**
 The book is for build engineers and software developers with knowledge of C/C++ programming who are looking to learn CMake to automate the process of building small and large software solutions. If you are someone who's just getting started with CMake, a long-time GNU Make user, or simply looking to brush up on the latest best practices, this book is for you.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-12).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-13).
 
 ### Software and Hardware List
 | Chapter | Software/Hardware required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1-12 | Cmake 3.20 | Windows, Mac OS X, and Linux |
+| 1-13 | Cmake 3.20 | Windows, Mac OS X, and Linux |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781801070058_ColorImages.pdf).
