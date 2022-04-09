@@ -11,7 +11,7 @@ int main()
 #ifdef FOO_ENABLE
   cout << "FOO_ENABLE: ON" << endl;
 #endif
-  cout << "FOO_ENABLE1: " << xstr(FOO_ENABLE1) << endl;
-  cout << "FOO_ENABLE2: " << xstr(FOO_ENABLE2) << endl;
+  cout << "FOO_STRING1: " << xstr(FOO_STRING1) << endl;
+  cout << "FOO_STRING2: " << xstr(FOO_STRING2) << endl;
   cout << "FOO_UNDEFINED: " << xstr(FOO_UNDEFINED) << endl;
 }
