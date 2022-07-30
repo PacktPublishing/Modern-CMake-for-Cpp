@@ -46,6 +46,49 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781801070058_ColorImages.pdf).
 
+## Errata
+* Page 75 (line 10): 'main()' _should be_ 'endmacro()'
+* Page 107 (Paragraph 2, line 14 and 15): **Calling test_run() isn't very complicated at all. We start by setting the required
+standard, after which we call test_run() and print the collected information to the
+user:
+** _should be_ **Calling try_run() isn't very complicated at all. We start by setting the required
+standard, after which we call try_run() and print the collected information to the
+user:**
+* Page 137 (Paragraph 1, line 1): **generation expression** _should be_ **generator expression**
+
+* Page 168 (Paragraph 5, line 19): **• -finline-functions-called-once: GCC only
+• -finline-functions: Clang and GCC
+• -finline-hint-functions: Clang only
+• -finline-functions-called-once: GCC only** _should be_ **• -finline-functions-called-once: GCC only
+• -finline-functions: Clang and GCC
+• -finline-hint-functions: Clang only**
+
+* Page 195 (line 12): **chapter06/02-odr-fail/two.cpp** _should be_ **chapter06/02-odr-fail/CMakeLists.txt**
+
+* Page 208 (line 13): **• Discovering legacy packages with FindPkgConfig0** _should be_ **• Discovering legacy packages with FindPkgConfig**
+
+* Page 213 (line 11): **<PKG_NAME>_LIBRARIES or <PKG_NAME>_LIBRARIES or <PKG_NAME>_LIBS** _should be_ **<PKG_NAME>_LIBRARIES or <PKG_NAME>_LIBS**
+
+* Page 222 (line 9): **# deliberately used in mind-module against the documentation** _should be_ **# deliberately used in find-module against the documentation**
+
+* Page 222 (Paragraph 2,line 16): **If a matching file is found, its path will be stored in the PQXX_LIBRARY_PATH variable. Otherwise, the variable will be set to <VAR>-NOTFOUND, or PQXX_HEADER_PATH-NOTFOUND in this case.** _should be_ **If a matching file is found, its path will be stored in the PQXX_LIBRARY_PATH variable. Otherwise, the variable will be set to <VAR>-NOTFOUND, or PQXX_LIBRARY_PATH-NOTFOUND in this case.**
+
+* Page 231 (line 7): **Downloading the step options** _should be_ **The downloading step options**
+
+* Page 265 (Paragraph 1,line 3): **shave** _should be_ **save**
+
+* Page 265 (Paragraph 2,line 14): **allow** _should be_ **disallow**
+
+* Page 354 (Paragraph 3,line 31): **install(FILES)** _should be_ **configure_package_config_file**
+
+* Page 362 (Paragraph 1,line 3): **...but there are also are procedural steps...** _should be_ **...but there are also procedural steps...**
+
+* Page 384 (line 28): **calc_command** _should be_ **calc_console**
+
+* Page 395 (Paragraph 1,line 5): **CPack** _should be_ **CTest**
+
+
+
 
 ### Related products
 * CMake Cookbook [[Packt]](https://www.packtpub.com/product/cmake-cookbook/9781788470711) [[Amazon]](https://www.amazon.com/CMake-Cookbook-Building-packaging-software/dp/1788470710)
