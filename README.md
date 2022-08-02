@@ -47,6 +47,8 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781801070058_ColorImages.pdf).
 
 ## Errata
+* Page 46 (Paragraph 1, line 1): **Multiline comments get their name from their symbol – they start with an opening square bracket ([) ...** _should be_ **Multiline comments get their name from their symbol – they start with an # and an opening square bracket (#[) ...**
+
 * Page 75 (line 10): `main()` _should be_ `endmacro()`
 * Page 107 (Paragraph 2, line 14 and 15): **Calling test_run() isn't very complicated at all. We start by setting the required standard, after which we call test_run() and print the collected information to the user:** _should be_ **Calling try_run() isn't very complicated at all. We start by setting the required
 standard, after which we call try_run() and print the collected information to the
