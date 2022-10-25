@@ -100,3 +100,7 @@ user:**
 **Rafał Świdziński** 
 works as a staff engineer at Google. With over 10 years of professional experience as a full stack developer, he has been able to experiment with a vast multitude of programming languages and technologies. During this time, he has been building software under his own company and for corporations including Cisco Meraki, Amazon, and Ericsson.
 Originally from Łódź, Poland, he now lives in London, UK, from where he runs a YouTube channel, “Smok,” discussing topics of software development. He tackles technical problems, including real-life and work-related challenges encountered by many people in the field. Throughout his work, he explains the technical concepts in detail and demystifies the art of being a software engineer. His primary focus is on high-quality code and the craftsmanship of programming.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801070058">https://packt.link/free-ebook/9781801070058 </a> </p>
