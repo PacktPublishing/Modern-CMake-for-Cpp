@@ -66,6 +66,8 @@ user:**
 • -finline-hint-functions: Clang only**
 
 * Page 195 (line 12): **chapter06/02-odr-fail/two.cpp** _should be_ **chapter06/02-odr-fail/CMakeLists.txt**
+  
+* Page 198 (third code block): **add_library(<name> SHARED [<source>...])** _should be_ **add_library(<name> [<source>...])**
 
 * Page 208 (line 13): **• Discovering legacy packages with FindPkgConfig0** _should be_ **• Discovering legacy packages with FindPkgConfig**
 
