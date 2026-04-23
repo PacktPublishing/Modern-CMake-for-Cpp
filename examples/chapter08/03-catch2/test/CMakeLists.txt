@@ -1,3 +1,4 @@
+# In china need replaced url, https://gitclone.com/github.com/catchorg/Catch2.git
 include(FetchContent)
 FetchContent_Declare(
   Catch2
